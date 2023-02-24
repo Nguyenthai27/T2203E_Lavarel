@@ -35,5 +35,7 @@ class DatabaseSeeder extends Seeder
             ]);
         }
        }
+        Student::factory(20)->create();
     }
+
 }
